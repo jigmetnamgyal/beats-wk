@@ -2,6 +2,7 @@
 Wangchuk Kinga beats market place. Buy Wangchuk Kinga's beats.
 
 # Notes
+- Lets stick to JS Functions for all components and pages. And use hooks instead of component lifecycle.
 - Please use camelCase for classes. Example: camelCase
 - please use a specific class for your files so that it does not clash with similar named classes on other files. Example: if you are working on a contact page, add "contact" before all your classes. No generic classes like "header", "logo". 
 - Function and Classes should not be camelCase, it should be PascalCase. Meaning every words first letter is capitalized. Example: PascalCase
