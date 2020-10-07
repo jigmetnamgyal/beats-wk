@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.backgroundColor {
+    background-color: #19252A;
+}
+
+.title {
+    color: #A0927B;
+    font-family: Futura, sans-serif;
+}
+
+.hr {
+    background-color: #A0927B;
+    margin-top: -3px !important;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: #e6e6e6;
+}
+
+.albumImage {
+    width: 117px;
+    height: auto;
+    box-shadow: 9px 7px 2px #c4c4c494, -15px -12px 20px #2b455f4a;
+}
