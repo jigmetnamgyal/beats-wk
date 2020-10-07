@@ -38,13 +38,14 @@ export default function AboutMe() {
                          className={utilStyles.albumImage}/>
                 </Col>
                 <Col xs={{span: 5, offset: 1}}>
-                    <img src={"https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg"}
-                         className={utilStyles.albumImage}/>
+                    <img
+                        src={"https://images.genius.com/8ababae027808d8f2de49bfcfc51488d.592x592x1.png"}
+                        className={utilStyles.albumImage}/>
                 </Col>
             </Row>
             <Row className={`justify-content-center ${styles.albumImagesSecondRow}`}>
                 <Col xs={5}>
-                    <img src={"https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg"}
+                    <img src={"https://upload.wikimedia.org/wikipedia/en/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png"}
                          className={utilStyles.albumImage}/>
                 </Col>
                 <Col xs={{span: 5, offset: 1}}>

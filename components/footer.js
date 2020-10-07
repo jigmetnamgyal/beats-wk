@@ -17,7 +17,7 @@ export default function Footer() {
                     </Row>
                     <Row className='justify-content-center'>
                         <Col xs={11} className={styles.titleName}>
-                            <p>WANGCHUK KINGA BEATS</p>
+                            <p>WANGCHUK KINGA BEATS  ©</p>
                         </Col>
                     </Row>
                 </Col>
