@@ -1,0 +1,19 @@
+.footerIcons{
+    color: #a8b2d1;
+    font-size: 20px;
+}
+.titleName{
+    color: slategray;
+    text-align: center;
+    font-family: Futura, sans-serif;
+}
+.titleName p{
+    margin-top: 1rem;
+    font-size: 0.7rem;
+}
+.footerContainer{
+    margin-top: 80px;
+}
+.footerIconContainer{
+    text-align: center;
+}

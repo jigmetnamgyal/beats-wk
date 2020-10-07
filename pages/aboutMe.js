@@ -1,6 +1,7 @@
 import {Container, Col, Row} from "react-bootstrap";
 import styles from "../components/aboutMe.module.css"
 import utilStyles from "../styles/utils.module.css";
+import Footer from "../components/footer";
 
 export default function AboutMe() {
     return (
@@ -51,6 +52,7 @@ export default function AboutMe() {
                          className={utilStyles.albumImage}/>
                 </Col>
             </Row>
+            <Footer/>
         </Container>
     )
 }
