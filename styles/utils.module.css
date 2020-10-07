@@ -14,3 +14,9 @@
     font-family: 'Montserrat' ,sans-serif;
     color: #e6e6e6;
 }
+.albumImage{
+    width: 117px;
+    height: auto;
+    box-shadow:  13px 12px 50px #121b1f,
+    -15px -12px 20px #202f35;
+}
