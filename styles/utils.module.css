@@ -10,8 +10,10 @@
 }
 
 .hr {
+    width: 90%;
+    margin: 20px auto;
     background-color: #A0927B;
-    margin-top: -3px !important;
+   
 }
 
 .text {

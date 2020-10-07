@@ -1,0 +1,38 @@
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: #a0927b;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    padding: 0 15px;
+    z-index: 200;
+}
+
+.hamHolder{
+    flex: 1;
+}
+.navBarHolder{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.cartHolder{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cartHolder > p{
+    margin: 0;
+    font-size: 20px;
+}
+.cartIcon{
+    color: #a0927b;
+   font-size: 25px;
+   
+}
