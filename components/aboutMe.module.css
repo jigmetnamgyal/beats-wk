@@ -2,7 +2,9 @@
     color: #A0927B;
 }
 .aboutMeContainer{
-    margin-top: 20px;;
+    margin-top: 20px;
+    height: 800px;
+    position: relative;
 }
 .text{
     font-size: 0.8rem;
