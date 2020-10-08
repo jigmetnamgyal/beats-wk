@@ -2,13 +2,13 @@ import {Container, Col, Row} from "react-bootstrap";
 import styles from "../components/aboutMe.module.css"
 import utilStyles from "../styles/utils.module.css";
 import Footer from "../components/footer";
-import Navagation from '../components/NavBar/NavigationBar';
+import Navigation from '../components/NavBar/NavigationBar';
 
 export default function AboutMe() {
     return (
         <Container className={`${utilStyles.backgroundColor} ${styles.aboutMeContainer}`}>
-            <Navagation />
-            <Row className="justify-content-center">
+            <Navigation />
+            <Row className={`justify-content-center ${utilStyles.headers}`}>
                 <Col xs={11}>
                     <h3 className={utilStyles.title}>About me</h3>
                     <hr className={utilStyles.hr}/>

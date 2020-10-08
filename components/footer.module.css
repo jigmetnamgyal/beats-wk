@@ -17,9 +17,7 @@
 }
 .footerContainer{
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin-top: 75px;
 }
 .widthFixes{
     width: 100%;

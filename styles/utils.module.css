@@ -20,7 +20,9 @@
     font-family: 'Montserrat', sans-serif;
     color: #e6e6e6;
 }
-
+.headers{
+    margin-top: 40px;
+}
 .albumImage {
     width: 117px;
     height: auto;
