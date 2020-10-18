@@ -4,7 +4,8 @@ import beatsStyles from "../components/beats.module.css";
 import {Col, Container, Row} from "react-bootstrap";
 import NavigationBar from "../components/NavBar/NavigationBar";
 import styles from "../components/aboutMe.module.css";
-
+import BeatsPlayer from "../components/beatPlayer";
+import Footer from "../components/footer";
 export default function Beats() {
     return (
         <Container className={`${utilStyles.backgroundColor}`}>
@@ -15,8 +16,8 @@ export default function Beats() {
                     <hr className={utilStyles.hr}/>
                 </Col>
             </Row>
-            <Row className="justify-content-center">
-                <Col xs={8} className={`${utilStyles.text} ${styles.text}`}>
+            <Row className="justify-content-center no-gutters">
+                <Col xs={8} className={`${utilStyles.text} ${styles.text} ${beatsStyles.text}`}>
                     <p>
                         My beats are solely produced by me and i make them for fun but would be down for a collaboration
                         as well.
@@ -27,7 +28,7 @@ export default function Beats() {
                     </p>
                 </Col>
                 <Col xs={3}>
-                    POLPPPP
+                    <img className={beatsStyles.djImg} src={"/images/dj.png"}/>
                 </Col>
             </Row>
             <Row className="no-gutters">
@@ -35,6 +36,21 @@ export default function Beats() {
                     <Button buttonLabel="Checkout"/>
                 </Col>
             </Row>
+            <Row className='no-gutters justify-content-center'>
+                <Col xs={12} className={beatsStyles.beatPlayer}>
+                    <BeatsPlayer beatDuration="2:59" imgURL="https://images.genius.com/8ababae027808d8f2de49bfcfc51488d.592x592x1.png"/>
+                </Col>
+                <Col xs={12} className={beatsStyles.beatPlayer}>
+                    <BeatsPlayer beatDuration="3:00" imgURL={"https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg"}/>
+                </Col>
+                <Col xs={12} className={beatsStyles.beatPlayer}>
+                    <BeatsPlayer beatDuration="1:54" imgURL={"https://upload.wikimedia.org/wikipedia/en/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png"}/>
+                </Col>
+                <Col xs={12} className={beatsStyles.beatPlayer}>
+                    <BeatsPlayer beatDuration="1:23" imgURL={"https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg"}/>
+                </Col>
+            </Row>
+            <Footer/>
         </Container>
     )
 }
