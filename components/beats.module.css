@@ -1,0 +1,17 @@
+.button{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
+}
+.beatPlayer{
+    margin-top: 50px;
+    box-shadow: 3px 7px 14px -2px #e6e6e65e
+}
+.djImg{
+    width: 180px;
+    position: absolute;
+    left: -65px;
+    z-index: 0;
+}
+.text{
+    z-index: 1;
+}
