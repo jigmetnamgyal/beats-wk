@@ -11,7 +11,6 @@ const NavigationBar = () => {
         }
         
     }
-
     const closeHandler = () => {
         setToggleFlag(false);
     }

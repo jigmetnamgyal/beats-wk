@@ -1,6 +1,4 @@
 import styles from './navbar.module.css';
-import utilStyles from "../../styles/utils.module.css";
-import Link from 'next/link';
 import Ham from './tools/HamBurger';
 import {FaShoppingCart} from "react-icons/fa"
 import {useState} from 'react';
