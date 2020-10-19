@@ -1,0 +1,21 @@
+.beatsImg{
+    width: 100%;
+}
+.licenseFormContainer{
+    background-color: rgba(230, 230, 230, 0.8);
+}
+.beatsInfo h4{
+    margin: 20px 10px 5px 10px;
+}
+.beatsInfo p{
+    margin: 10px;
+}
+.windowClose{
+    text-align: right;
+    color: #19252a;
+}
+.windowCloseIcon{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
