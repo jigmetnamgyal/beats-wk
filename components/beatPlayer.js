@@ -1,5 +1,11 @@
 import styles from "./beatsPlayer.module.css"
 import Button from "./button";
+import LicenseForm from "./licenseForm";
+import React from "react";
+const handleClick = (e) => {
+    e.preventDefault();
+    console.log("what is this shit");
+}
 export default function BeatsPlayer(props) {
     return (
         <div className={styles.beatsPlayerContainer}>
@@ -20,7 +26,7 @@ export default function BeatsPlayer(props) {
                         Wangchuk Kinga
                     </div>
                     <div className={styles.cartBtn}>
-                        <Button buttonLabel={'Add To Cart'}/>
+                        <Button buttonLabel={'Add To Cart'} onClick={handleClick}/>
                     </div>
                 </div>
             </div>

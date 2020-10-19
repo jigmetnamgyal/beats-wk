@@ -51,12 +51,6 @@ export default function Beats() {
                     <BeatsPlayer beatDuration="1:23" imgURL={"https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg"}/>
                 </Col>
             </Row>
-            <Row>
-                <Col xs={12}>
-                    <LicenseForm/>
-                </Col>
-            </Row>
-
             <Footer/>
         </Container>
     )

@@ -2,6 +2,7 @@ import {Row, Col} from "react-bootstrap";
 import styles from "./licenseForm.module.css";
 import utilStyles from "../styles/utils.module.css";
 import {FaWindowClose} from "react-icons/fa"
+import LicenseInfo from "./licenseInfo";
 export default function LicenseForm() {
     return (
         <Row className={`no-gutters justify-content-center ${styles.licenseFormContainer}`}>
@@ -23,6 +24,10 @@ export default function LicenseForm() {
                         <p>SONG ARTIEST</p>
                     </Col>
                 </Row>
+                <hr className={`${styles.formInfoDivider}`}/>
+                <LicenseInfo/>
+                <LicenseInfo/>
+                <LicenseInfo lastLicense={true}/>
             </Col>
         </Row>
     )
