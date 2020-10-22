@@ -2,7 +2,27 @@ import styles from '../components/contact.module.css';
 import NavigationBar from '../components/NavBar/NavigationBar';
 import Footer from '../components/footer';
 import {Button} from '@material-ui/core'
+import {useState} from 'react'
 const contactUs = () => {
+
+    const [firstName, setFirstname] = useState("");
+    const [lastName, setLastName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const firstNameHandle = e => {
+        setFirstname(e.target.value);
+    }
+    const lastNameHandle = e => {
+        setFirstname(e.target.value);
+    }
+    const emailHandle = e => {
+        setFirstname(e.target.value);
+    }
+    const messageHandle = e => {
+        setFirstname(e.target.value);
+    }
+
     return (
         <div className={styles.contactUsContainer}>
             <NavigationBar/>
@@ -17,50 +37,53 @@ const contactUs = () => {
                 <div className={styles.formStyle}>
                     <label for="exampleInputEmail1">First Name</label>
                     <input
-                        type="text"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                        />
-
-                </div>
-
-                <div className={styles.formStyle}>
-                    <label for="exampleInputEmail1">Last Name</label>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                        />
-
-                </div>
-
-                <div className={styles.formStyle}>
-                    <label for="exampleInputEmail1">Email</label>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                        />
-
-                </div>
-
-                <div className={styles.formStyle}>
-                    <label for="exampleInputEmail1">Message</label>
-                    <textarea
+                        onChange={firstNameHandle}
+                        value={firstName}
                         type="text"
                         class="form-control"
                         id="exampleInputEmail1"
                         aria-describedby="emailHelp"/>
 
                 </div>
-                <Button className={styles.contactUsButton}>Send Message</Button>
+
+                <div className={styles.formStyle}>
+                    <label for="exampleInputEmail1">Last Name</label>
+                    <input
+                        onChange={lastNameHandle}
+                        value={lastName}
+                        type="text"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"/>
+
+                </div>
+
+                <div className={styles.formStyle}>
+                    <label for="exampleInputEmail1">Email</label>
+                    <input
+                        onChange={emailHandle}
+                        value={email}
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"/>
+
+                </div>
+
+                <div className={styles.formStyle}>
+                    <label for="exampleInputEmail1">Message</label>
+                    <textarea
+                        onChange={messageHandle}
+                        value={message}
+                        type="text"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"/>
+
+                </div>
+                <Button className={styles.contactUsButton} onClick="onClick">Send Message</Button>
 
             </form>
-
-           
 
             <Footer/>
         </div>

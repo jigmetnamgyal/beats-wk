@@ -3,6 +3,7 @@ import styles from './side.module.css';
 import Link from 'next/link';
 import {ImCross} from 'react-icons/im'
 const SideBar = ({close, show}) => {
+
     
     return (
         <div className={`${styles.sidebar} ${show && styles.open}`}>
