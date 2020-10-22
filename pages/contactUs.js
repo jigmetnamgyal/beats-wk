@@ -81,7 +81,7 @@ const contactUs = () => {
                         aria-describedby="emailHelp"/>
 
                 </div>
-                <Button className={styles.contactUsButton} onClick="onClick">Send Message</Button>
+                <Button className={styles.contactUsButton}>Send Message</Button>
 
             </form>
 
