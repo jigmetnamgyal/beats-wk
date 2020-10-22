@@ -14,13 +14,13 @@ const contactUs = () => {
         setFirstname(e.target.value);
     }
     const lastNameHandle = e => {
-        setFirstname(e.target.value);
+        setLastName(e.target.value);
     }
     const emailHandle = e => {
-        setFirstname(e.target.value);
+        setFirssetEmailtname(e.target.value);
     }
     const messageHandle = e => {
-        setFirstname(e.target.value);
+        setMessage(e.target.value);
     }
 
     return (
