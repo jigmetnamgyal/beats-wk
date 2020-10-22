@@ -1,0 +1,21 @@
+.contactUsContainer{
+    position: relative;
+    background-color: #19252a;
+   
+}
+.contactUsTitleHolder{
+    margin-top: 100px;
+    color: #a0927b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titleContent{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
