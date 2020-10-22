@@ -1,0 +1,24 @@
+.playlistContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.albumContainer{
+    display: flex;
+}
+.playlistHeading{
+    color: #a0927b;
+}
+.albumContainer{
+    overflow-x: scroll;
+    
+}
+.albumContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.albumImage{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
