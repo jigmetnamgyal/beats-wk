@@ -7,6 +7,7 @@ import styles from "../components/aboutMe.module.css";
 import BeatsPlayer from "../components/beatPlayer";
 import Footer from "../components/footer";
 import LicenseForm from "../components/licenseForm";
+import Link from "next/link";
 export default function Beats() {
     return (
         <Container className={`${utilStyles.backgroundColor}`}>
