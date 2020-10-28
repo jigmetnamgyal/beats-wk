@@ -12,6 +12,9 @@
 .ralewayFont {
     font-family: 'Raleway',sans-serif;
 }
+.montserratFont{
+    font-family: 'Montserrat', sans-serif;
+}
 .hr {
     width: 100%;
     margin: 20px auto;

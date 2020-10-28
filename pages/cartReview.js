@@ -2,6 +2,8 @@ import Navbar from "../components/NavBar/NavigationBar";
 import CartReviewItem from "../components/cartReviewItem";
 import {Row, Col, Container} from 'react-bootstrap';
 import utilStyles from "../styles/utils.module.css"
+import CartSummary from "../components/cartSummary";
+import Footer from "../components/footer";
 export default function CartReview() {
     return (
         <Container className={`${utilStyles.backgroundColor}`}>
@@ -17,6 +19,8 @@ export default function CartReview() {
             <CartReviewItem/>
             <CartReviewItem/>
             <CartReviewItem/>
+            <CartSummary/>
+            <Footer/>
         </Container>
     )
 }

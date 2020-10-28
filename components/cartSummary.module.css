@@ -1,0 +1,24 @@
+.cartSummaryContainer{
+    background-color: rgba(41, 57, 64, 0.62);
+    border-radius: 3px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.header h5{
+    margin-top: 15px;
+}
+.text {
+    color: #e6e6e6;
+}
+.items {
+    margin-top: 10px;
+}
+.priceHeader{
+    text-align: right;
+}
+.botHr{
+    margin-top: 20px !important;
+}
+.total{
+    margin-bottom: 15px;
+}
