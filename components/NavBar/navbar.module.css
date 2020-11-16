@@ -36,5 +36,54 @@
 .cartIcon{
     color: #a0927b;
    font-size: 25px;
+   cursor: pointer;
    
+}
+.header__navigation{
+    display: none;
+    
+}
+.img_container{
+    height: 10vh;
+    width: 100px;
+
+    padding-top: 10px;
+    display: none;
+    transition: all 0.5 ease-in-out;
+}
+.header__logo{
+    width: 100px;
+    height: 100%;
+}
+
+@media screen and (min-width: 680px){
+    .header__navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+        padding-left: 20px;
+        margin-right: 30px;
+    }
+    .header__navigation > ul > a{
+        margin: 0 15px;
+        color: #a0927b;
+    }
+    .header__navigation > ul > a:hover{
+        color: lightgray;
+        text-decoration: none;
+    }
+    .hamHolder{
+        display: none;
+    }
+    .img_container{
+        display: block;
+        flex: 1;
+    }
+
+    .navBar{
+        display: flex;
+
+    }
+    
 }
