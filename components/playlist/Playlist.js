@@ -8,6 +8,8 @@ export default class Playlist extends React.Component {
                 <div className={styles.albumContainer}>
                     <img className={styles.albumImage} src={this.props.imageOne} alt="Album Image"/>
                     <img className={styles.albumImage} src={this.props.imageTwo} alt="Album Image"/>
+                    <img className={styles.albumImage} src={this.props.imageTwo} alt="Album Image"/>
+                    <img className={styles.albumImage} src={this.props.imageOne} alt="Album Image"/>
                 </div>
             </div>
         )
