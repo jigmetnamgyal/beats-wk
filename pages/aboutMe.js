@@ -1,7 +1,7 @@
 import {Container, Col, Row} from "react-bootstrap";
 import styles from "../components/aboutMe.module.css"
 import utilStyles from "../styles/utils.module.css";
-import Footer from "../components/footer";
+import Footer from "../components/footer/Footer";
 import Navigation from '../components/NavBar/NavigationBar';
 
 export default function AboutMe() {

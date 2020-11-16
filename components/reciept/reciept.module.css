@@ -47,3 +47,9 @@
 .recieptPriceContainer{
     font-size: 12px;
 }
+
+@media only screen and (min-width: 700px) {
+    .recieptContainer{
+        padding: 40px;
+    }
+}

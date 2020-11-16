@@ -21,6 +21,9 @@
     display: flex;
     margin-bottom: 40px;
     height: auto;
+    border-top: 1px #a0927b solid;
+    padding-top: 30px;
+    margin-top: 50px;
 }
 
 .footerOne {

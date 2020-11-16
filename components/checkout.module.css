@@ -14,6 +14,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+.checkOutTitleHolder > p {
+    font-size: 30px;
+}
 .formContainer{
     margin: 0 auto;
     width: 80%;
@@ -118,4 +121,20 @@
     background-color: #a0927b !important;
     color: white !important;
     padding: 12px 27px !important;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .formStyle > label{
+        
+        margin-top: 30px;
+        
+    }
+    .formStyle > input, .formStyle > textarea {
+        padding: 25px !important;
+    }
+    .checkoutButton{
+        margin-top: 30px !important;
+        padding: 15px !important;
+    }
 }

@@ -10,6 +10,7 @@
 .albumArtContainer img {
     width: 100%;
 }
+
 .beatDescription {
     display: flex;
     flex-direction: column;
