@@ -21,7 +21,85 @@
 .beatsDescriptionComp{
     display: none;
 }
+.beatsPlayer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.beatPlayer{
+    width: 330px;
+    height: auto;
+}
+.cartAndBeats {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cartSummary {
+    display: block;
+}
 @media (min-width: 700px) {
+    .beatsPlayer{
+        width: 500px;
+        height: auto;
+    }
+    .beatPlayer {
+        width: 350px;
+        height: auto;
+    }
+    .cartSummary {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 400px;
+        height: auto;
+        background-color: #233237;
+        margin-top: 30px;
+    }
+    .title{
+        margin-top: 10px !important;
+    }
+    .cartSummaryItemPrice{
+        display: flex;
+        width: 380px;
+        margin-left: 10px;
+        justify-content: space-between;
+    }
+    .cartSummaryItemPrice p {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cartSummaryTitle{
+        width: 380px;
+        margin-top: 20px;
+        margin-left: 10px;
+        text-align: left;
+    }
+    .eachItem{
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+    .totalHR{
+        margin-top: 20px;
+        background-color: white;
+        width: 380px;
+        margin-left: 10px;
+    }
+    .items{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 380px;
+        margin-left: 10px;
+    }
+    .cartSummaryhr{
+        background-color: white;
+        margin-top: 5px !important;
+        width: 380px;
+        margin-left: 10px;
+    }
     .beatsDescriptionComp {
         display: flex;
         background-size: cover;
@@ -51,8 +129,14 @@
     .phoneImg {
         display: none;
     }
+    .button {
+        display: none;
+    }
     .computerImg {
         display: flex;
+    }
+    .beatPlayer{
+        justify-content: left !important;
     }
     .text p{
         margin-top: 50px !important;
@@ -62,5 +146,10 @@
     }
     .textContainer{
         background-color: rgba(160, 146, 123, 0.55);
+    }
+    .checkoutButton{
+        width: 130px;
+        height: auto;
+        margin: auto;
     }
 }
