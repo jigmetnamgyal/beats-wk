@@ -10,16 +10,16 @@ import LicenseForm from "../components/licenseForm";
 import Link from "next/link";
 export default function Beats() {
     return (
-        <Container className={`${utilStyles.backgroundColor}`}>
+        <Container className={`${utilStyles.backgroundColor} ${beatsStyles.metaContainer}`} fluid={true}>
             <NavigationBar/>
-            <Row className={`justify-content-center ${utilStyles.headers}`}>
-                <Col xs={11}>
-                    <h3 className={utilStyles.title}>Beats</h3>
+            <Row className={`justify-content-center ${utilStyles.headers} ${styles.header}`}>
+                <Col xs={11} lg={11}>
+                    <h3 className={`${utilStyles.title} ${styles.title}`}>Beats</h3>
                     <hr className={utilStyles.hr}/>
                 </Col>
             </Row>
-            <Row className="justify-content-center no-gutters">
-                <Col xs={8} className={`${utilStyles.text} ${styles.text} ${beatsStyles.text}`}>
+            <Row className={`justify-content-center no-gutters ${beatsStyles.beatsDescription}`}>
+                <Col xs={8} lg={4} className={`${utilStyles.text} ${styles.text} ${beatsStyles.text}`}>
                     <p>
                         My beats are solely produced by me and i make them for fun but would be down for a collaboration
                         as well.
@@ -29,10 +29,26 @@ export default function Beats() {
                         All beats are pretty good and if you really want to use but no money then email me.
                     </p>
                 </Col>
-                <Col xs={3}>
+                <Col xs={3} lg={6} className={`${beatsStyles.phoneImg}`}>
                     <img className={beatsStyles.djImg} src={"/images/dj.png"}/>
                 </Col>
             </Row>
+            <div className={`${beatsStyles.beatsDescriptionComp}`}>
+                <Col lg={{span: 11, offset: 1}} className={`${beatsStyles.beatsDescriptionContainer}`}>
+                    <Row>
+                        <Col lg={{span: 5}} className={`${utilStyles.text} ${styles.text} ${beatsStyles.text} ${beatsStyles.textContainer}`}>
+                            <p>
+                                My beats are solely produced by me and i make them for fun but would be down for a collaboration
+                                as well.
+                            </p>
+                            <p>
+                                The beats are licensed under apache 2.0 and please dont fork.
+                                All beats are pretty good and if you really want to use but no money then email me.
+                            </p>
+                        </Col>
+                    </Row>
+                </Col>
+            </div>
             <Row className="no-gutters">
                 <Col xs={{span:4, offset: 7}} className={beatsStyles.button}>
                     <Button buttonLabel="Checkout"/>

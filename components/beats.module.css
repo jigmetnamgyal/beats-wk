@@ -15,3 +15,52 @@
 .text{
     z-index: 1;
 }
+.computerImg {
+    display: none;
+}
+.beatsDescriptionComp{
+    display: none;
+}
+@media (min-width: 700px) {
+    .beatsDescriptionComp {
+        display: flex;
+        background-size: cover;
+        background-image: url("/images/compBG.png");
+        width: 100%;
+        height: 500px;
+        padding: 0!important;
+    }
+    .metaContainer{
+        padding: 0!important;
+    }
+    .beatsDescriptionContainer{
+
+    }
+    .beatsDescription{
+        display: none;
+    }
+    .djImg {
+        width: 350px;
+        height: 400px;
+        position: static;
+    }
+    .beatsImg{
+        width: 100%;
+        height: auto;
+    }
+    .phoneImg {
+        display: none;
+    }
+    .computerImg {
+        display: flex;
+    }
+    .text p{
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .textContainer{
+        background-color: rgba(160, 146, 123, 0.55);
+    }
+}
