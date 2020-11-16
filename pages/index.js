@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Footer from '../components/footer';
+import Footer from '../components/footer/Footer';
 import Navagation from '../components/NavBar/NavigationBar';
 import Playlist from '../components/playlist/Playlist';
 export default function Home() {
