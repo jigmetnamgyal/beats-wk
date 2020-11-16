@@ -25,7 +25,7 @@ const Navbar = ({hamHandler}) => {
                     </ul>
                 </nav>
                 <div className={styles.cartHolder}>
-                    <FaShoppingCart className={styles.cartIcon}/>
+                    <Link href="/checkout"><a><FaShoppingCart className={styles.cartIcon}/></a></Link>
                     <p>{count}</p>
                 </div>
 
