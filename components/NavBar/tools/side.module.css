@@ -60,3 +60,9 @@
 .sidebar > ul > li > a {
     color: #a0927b;
 }
+
+@media screen and (min-width: 680px){
+    .sidebar{
+        display: none;
+    }
+}

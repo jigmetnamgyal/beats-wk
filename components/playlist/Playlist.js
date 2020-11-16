@@ -1,5 +1,4 @@
 import styles from './playlist.module.css';
-
 export default class Playlist extends React.Component {
     render() {
         return (
