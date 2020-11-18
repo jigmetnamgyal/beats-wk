@@ -24,6 +24,11 @@
     width: 150px;
     height: 150px !important;
     margin: 20px;
+    cursor: pointer;
+}
+.albumImage:hover{
+    transform: scale(1.1);
+    transition: all 0.15s ease-in;
 }
 .makeLong{
     height: 200px !important;
