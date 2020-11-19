@@ -1,6 +1,6 @@
 import styles from '../components/checkout.module.css';
 import NavigationBar from '../components/NavBar/NavigationBar';
-import Footer from '../components/footer';
+import Footer from '../components/footer/Footer';
 import {Button} from '@material-ui/core'
 import {useState} from 'react'
 import Reciept from '../components/reciept/reciept';
@@ -67,7 +67,7 @@ const checkout = () => {
         <div className={styles.checkoutContainer}>
             <NavigationBar/>
             <div className={styles.checkOutTitleHolder}>
-                <p>Got a Questions</p>
+                <p>Check Out</p>
                 <div className={styles.btnTypeholder}>
                     <Button
                         className={`${styles.domesticBtn} ${flag && styles.active}`}

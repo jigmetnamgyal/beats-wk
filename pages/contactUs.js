@@ -1,6 +1,6 @@
 import styles from '../components/contact.module.css';
 import NavigationBar from '../components/NavBar/NavigationBar';
-import Footer from '../components/footer';
+import Footer from '../components/footer/Footer';
 import {Button} from '@material-ui/core'
 import {useState} from 'react'
 const contactUs = () => {

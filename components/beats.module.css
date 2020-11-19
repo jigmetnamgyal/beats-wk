@@ -12,6 +12,9 @@
     left: -65px;
     z-index: 0;
 }
+.checkoutButton > a{
+    text-decoration: none;
+}
 .text{
     z-index: 1;
 }

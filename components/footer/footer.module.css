@@ -1,7 +1,8 @@
 .footer {
     background-color: #19252a;
     color: white;
-    padding: 20px 40px;
+    padding: 0px 10px;
+    padding-top: 40px;
 }
 .imgLogo{
     height: 100px;
@@ -20,6 +21,9 @@
     display: flex;
     margin-bottom: 40px;
     height: auto;
+    border-top: 1px #a0927b solid;
+    padding-top: 30px;
+    margin-top: 50px;
 }
 
 .footerOne {
@@ -28,6 +32,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-top: -35px;
 }
 .footerOne > p {
     font-size: 12px;
@@ -56,7 +61,7 @@
     flex: 0.25;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 .footerTwo > h4 {
@@ -78,7 +83,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 92px;
+    /* padding-top: 92px; */
 }
 .footerThree > h4 {
     color: #a0927b;
@@ -99,7 +104,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 95px;
+    /* padding-top: 95px; */
 }
 .footerFour > h4 {
     color: #a0927b;

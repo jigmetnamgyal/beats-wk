@@ -1,6 +1,7 @@
 import styles from "./beatsPlayer.module.css"
 import Button from "./button";
 import LicenseForm from "./licenseForm";
+import Link from 'next/link';
 import React from "react";
 const handleClick = (e) => {
     e.preventDefault();

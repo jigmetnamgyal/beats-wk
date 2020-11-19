@@ -5,7 +5,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import NavigationBar from "../components/NavBar/NavigationBar";
 import styles from "../components/aboutMe.module.css";
 import BeatsPlayer from "../components/beatPlayer";
-import Footer from "../components/footer";
+import Footer from "../components/footer/Footer";
 import LicenseForm from "../components/licenseForm";
 import Link from "next/link";
 
@@ -128,7 +128,7 @@ export default function Beats() {
                         </div>
                     </div>
                     <div className={`${beatsStyles.checkoutButton}`}>
-                        <Button buttonLabel="Checkout"/>
+                        <Link href="/checkout"><a><Button buttonLabel="Checkout"/></a></Link>
                     </div>
                 </div>
             </div>
