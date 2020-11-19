@@ -30,3 +30,9 @@
     margin: 2px 0 !important;
     background-color: rgba(25, 37, 42, 0.5);
 }
+
+@media (min-width: 700px) {
+    .licenseFormContainer {
+        left: 450px;
+    }
+}
