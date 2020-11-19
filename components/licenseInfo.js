@@ -26,7 +26,11 @@ export default function LicenseInfo(props) {
                         <p>Wav 3, Mp3 and others</p>
                     </Col>
                     <Col xs={6} className={`${styles.selectLicense}`}>
-                        <FaCheckCircle className={`${styles.selectLicenseIcon}`}/>
+                        <FaCheckCircle className={`${styles.selectLicenseIcon}`}
+                                       onClick={()=>{
+                                           props.setShow(false);
+                                       }}
+                        />
                     </Col>
                 </Row>
             </Col>

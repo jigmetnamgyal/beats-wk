@@ -31,7 +31,8 @@ export default function BeatsPlayer(props) {
                     </div>
                 </div>
             </div>
-            {showForm ? <LicenseForm/> : null}
+            {showForm ? <LicenseForm showLicense={true} setShow={setForm}/> : null}
         </span>
     )
 }
+
