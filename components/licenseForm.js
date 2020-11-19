@@ -3,7 +3,9 @@ import styles from "./licenseForm.module.css";
 import utilStyles from "../styles/utils.module.css";
 import {FaWindowClose} from "react-icons/fa"
 import LicenseInfo from "./licenseInfo";
-export default function LicenseForm() {
+import {useState} from "react";
+
+export default function LicenseForm(props) {
     return (
         <Row className={`no-gutters justify-content-center ${styles.licenseFormContainer}`}>
             <Col xs={12}>
@@ -17,7 +19,9 @@ export default function LicenseForm() {
                             <Col xs={8}>
                                 <h4>Song Title</h4>
                             </Col>
-                            <Col xs={4} className={`${styles.windowClose}`}>
+                            <Col xs={4} className={`${styles.windowClose}`} onClick={() => {
+                                props.setShow(false);
+                            }}>
                                 <FaWindowClose className={`${styles.windowCloseIcon}`}/>
                             </Col>
                         </Row>
@@ -25,9 +29,9 @@ export default function LicenseForm() {
                     </Col>
                 </Row>
                 <hr className={`${styles.formInfoDivider}`}/>
-                <LicenseInfo/>
-                <LicenseInfo/>
-                <LicenseInfo lastLicense={true}/>
+                <LicenseInfo setShow={props.setShow}/>
+                <LicenseInfo setShow={props.setShow}/>
+                <LicenseInfo setShow={props.setShow} lastLicense={true}/>
             </Col>
         </Row>
     )
