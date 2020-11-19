@@ -8,6 +8,7 @@ import BeatsPlayer from "../components/beatPlayer";
 import Footer from "../components/footer/Footer";
 import LicenseForm from "../components/licenseForm";
 import Link from "next/link";
+import {useState} from "react";
 
 export default function Beats() {
     return (
