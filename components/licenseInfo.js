@@ -29,6 +29,7 @@ export default function LicenseInfo(props) {
                         <FaCheckCircle className={`${styles.selectLicenseIcon}`}
                                        onClick={()=>{
                                            props.setShow(false);
+                                           props.setLabel('Remove From Cart')
                                        }}
                         />
                     </Col>
