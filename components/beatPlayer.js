@@ -6,6 +6,7 @@ import React, {useState} from "react";
 
 export default function BeatsPlayer(props) {
     const [showForm, setForm] = useState(false);
+    const [btnLabel, setLabel] = useState('Add To Cart')
     return (
         <span>
             <div className={styles.beatsPlayerContainer}>
@@ -25,13 +26,20 @@ export default function BeatsPlayer(props) {
                         <div className={styles.beatProd}>
                             Wangchuk Kinga
                         </div>
-                        <div className={styles.cartBtn} onClick={()=> {setForm(true)}}>
-                            <Button buttonLabel={'Add To Cart'}/>
+                        <div className={styles.cartBtn} onClick={() => {
+                            if (btnLabel === 'Add To Cart') {
+                                setForm(true);
+                            } else {
+                                setLabel('Add To Cart')
+                            }
+
+                        }}>
+                            <Button buttonLabel={btnLabel}/>
                         </div>
                     </div>
                 </div>
             </div>
-            {showForm ? <LicenseForm showLicense={true} setShow={setForm}/> : null}
+            {showForm ? <LicenseForm showLicense={true} setShow={setForm} setLabel={setLabel}/> : null}
         </span>
     )
 }
