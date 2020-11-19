@@ -1,0 +1,8 @@
+.cartItemsContainer {
+    justify-content: center;
+}
+@media (min-width: 700px) {
+    .cartItemsContainer{
+        justify-content: left;
+    }
+}

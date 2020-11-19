@@ -22,3 +22,15 @@
 .total{
     margin-bottom: 15px;
 }
+.cartSummaryMetaContainer {
+    justify-content: center;
+}
+
+@media (min-width: 700px) {
+    .cartSummaryMetaContainer{
+        justify-content: left;
+    }
+    .cartSummaryContainer {
+        margin-top: 0;
+    }
+}
