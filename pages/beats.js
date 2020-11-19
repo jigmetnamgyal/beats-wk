@@ -31,9 +31,9 @@ export default function Beats() {
                         All beats are pretty good and if you really want to use but no money then email me.
                     </p>
                 </Col>
-                <Col xs={3} lg={6} className={`${beatsStyles.phoneImg}`}>
-                    <img className={beatsStyles.djImg} src={"/images/dj.png"}/>
-                </Col>
+                {/*<Col xs={3} lg={6} className={`${beatsStyles.phoneImg}`}>*/}
+                {/*    <img className={beatsStyles.djImg} src={"/images/dj.png"}/>*/}
+                {/*</Col>*/}
             </Row>
             <div className={`${beatsStyles.beatsDescriptionComp}`}>
                 <Col lg={{span: 11, offset: 1}} className={`${beatsStyles.beatsDescriptionContainer}`}>
