@@ -4,8 +4,7 @@ import styles from "./cartSummary.module.css"
 import Button from "./button";
 export default function CartSummary() {
     return(
-        <Row className={`no-gutters justify-content-center `}>
-            <Col xs={11} className={`${styles.cartSummaryContainer}`}>
+            <Col xs={11} lg={{span: 4, offset: 2}} className={`${styles.cartSummaryContainer}`}>
                 <Row className={`no-gutters justify-content-center`}>
                     <Col xs={11} className={`${utilStyles.title} ${styles.header}`}>
                         <h5>Cart Summary</h5>
@@ -60,6 +59,5 @@ export default function CartSummary() {
                     </Col>
                 </Row>
             </Col>
-        </Row>
     )
 }

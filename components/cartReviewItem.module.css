@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 .cartReviewItemContainer{
+    justify-content: center;
 }
 .playIcon{
     color:#19252a;
@@ -51,4 +52,10 @@
     font-size: 0.75rem;
     color: rgba(230, 230, 230, 0.7);
     margin-bottom: 10px;
+}
+
+@media (min-width: 700px) {
+    .cartReviewItemContainer {
+        justify-content: left;
+    }
 }
