@@ -1,65 +1,33 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import Footer from '../components/footer/Footer';
+import Navagation from '../components/NavBar/NavigationBar';
+import Playlist from '../components/playlist/Playlist';
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    return (
+        <div className={styles.containerEn}>
+            <Head>
+                <title>Wk Beats</title>
+                <link rel="icon" href="/favicon.ico"/>
+            </Head>
+            <Navagation/>
+            <main className={styles.mainPage}>
+                <div className={styles.mainContentContainer}>
+                    <div className={styles.homeHeadingContainer}>
+                        <p className={styles.headingOne}>#1 market place to buy beats</p>
+                        <p className={styles.headingTwo}>We have more than 1.2 m happy customers</p>
+                    </div>
+                </div>
+               
+            </main>
+            <div className={styles.homepagePlaylistContainer}>
+                {/* For now the image link is directly passed as props , when db is ready will do in the component itself */}
+                    <Playlist title="Recommended Playlist" imageOne="https://images.genius.com/8ababae027808d8f2de49bfcfc51488d.592x592x1.png" imageTwo="https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg"/>
+                    <Playlist title="Popular Playlist" imageTwo="https://images.genius.com/8ababae027808d8f2de49bfcfc51488d.592x592x1.png" imageOne="https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg" long/>
+                    <Playlist title="Lorem Ipsum Playlist" imageOne="https://images.genius.com/8ababae027808d8f2de49bfcfc51488d.592x592x1.png" imageTwo="https://upload.wikimedia.org/wikipedia/en/5/52/HeadInTheClouds-Album.jpg" />
+            </div>
+            <Footer/>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    )
 }
