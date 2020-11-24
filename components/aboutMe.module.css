@@ -7,7 +7,7 @@
 .aboutMeContainer{
     margin-top: 20px;
     height: 800px;
-    position: relative;
+    /*position: relative;*/
 }
 .text{
     font-size: 0.8rem;
