@@ -79,7 +79,8 @@ export default function Beats() {
                 </div>
                 <div className={`${beatsStyles.cartSummary}`}>
                     <div className={`${beatsStyles.cartSummaryTitle}`}>
-                        <h3 className={`${utilStyles.headers} ${utilStyles.title} ${beatsStyles.title}`}>Cart Summary</h3>
+                        <h3 className={`${utilStyles.headers} ${utilStyles.title} ${beatsStyles.title}`}>Cart
+                            Summary</h3>
                         <hr className={`${utilStyles.hr}`}/>
                     </div>
                     <div className={`${beatsStyles.cartSummaryItemPrice}`}>
