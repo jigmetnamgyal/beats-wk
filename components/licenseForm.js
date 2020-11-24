@@ -3,7 +3,6 @@ import styles from "./licenseForm.module.css";
 import utilStyles from "../styles/utils.module.css";
 import {FaWindowClose} from "react-icons/fa"
 import LicenseInfo from "./licenseInfo";
-import {useState} from "react";
 
 export default function LicenseForm(props) {
     return (
