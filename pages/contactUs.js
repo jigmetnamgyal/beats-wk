@@ -17,7 +17,7 @@ const contactUs = () => {
         setLastName(e.target.value);
     }
     const emailHandle = e => {
-        setFirssetEmailtname(e.target.value);
+        setEmail(e.target.value);
     }
     const messageHandle = e => {
         setMessage(e.target.value);
