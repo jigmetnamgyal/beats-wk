@@ -16,8 +16,6 @@
     width: 50%;
 }
 .hamLine{
-    width: 90%;
-    height: 1px;
-    background-color: #a0927b;
-    
+    font-size: 50px;
+    color: #a0927b; 
 }
