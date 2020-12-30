@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@500&display=swap');
 .licenseInfoContainer{
-    background-color: #19252a;
+    background-color: #000000;
     margin-top: 20px;
     box-shadow: 8px 7px 14px 0 #233035;
     margin-bottom: 10px;
 }
 .lastLicenseInfoContainer{
-    background-color: #19252a;
+    background-color: #000000;
     margin-top: 20px;
     box-shadow: 8px 7px 14px 0 #233035;
     margin-bottom: 30px;
