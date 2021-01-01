@@ -1,11 +1,11 @@
 .contactUsContainer{
     position: relative;
-    background-color: #000000;
+    background-color: #ffffff;
    
 }
 .contactUsTitleHolder{
-    margin-top: 100px;
-    color: #a0927b;
+    margin-top: 95px;
+    color: #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,8 +14,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.contactUsTitleHolder > p{
+    font-size: 12px;
+}
 .titleContent{
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 15px;
 }
@@ -35,7 +38,7 @@
     border-radius: 0 !important;
 }
 .contactUsButton{
-    background-color: #a0927b !important;
+    background-color: #000000 !important;
     color: white !important;
     width: 100%;
     outline: none !important;
@@ -49,6 +52,9 @@
         
         margin-top: 30px;
         
+    }
+    .contactUsTitleHolder > p{
+        font-size: 18px;
     }
     .formStyle > input, .formStyle > textarea {
         padding: 25px !important;

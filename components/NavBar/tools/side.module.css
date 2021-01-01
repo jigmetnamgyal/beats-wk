@@ -34,7 +34,7 @@
     color: white;
 }
 .cross{
-    color: #a0927b;
+    color: #ffffff;
     font-size: 12px;
     cursor: pointer;
 }
@@ -58,7 +58,7 @@
 
 }
 .sidebar > ul > li > a {
-    color: #a0927b;
+    color: #ffffff;
 }
 
 @media screen and (min-width: 680px){

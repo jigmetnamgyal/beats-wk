@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 .backgroundColor {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .title {
-    color: #A0927B;
+    color: #000000;
     font-family:  'Raleway',sans-serif;
     letter-spacing: 1px;
 }
@@ -19,7 +19,7 @@
     width: 100%;
     margin: 20px auto;
     margin-top: 5px !important;
-    background-color: #A0927B;
+    background-color: #000000;
    
 }
 .button{
@@ -33,7 +33,7 @@
 }
 .text {
     font-family: 'Montserrat', sans-serif;
-    color: #e6e6e6;
+    color: gray;
 }
 .headers{
     margin-top: 80px;

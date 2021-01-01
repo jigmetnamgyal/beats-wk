@@ -187,7 +187,7 @@ const checkout = () => {
                                             <h6>
                                                 <strong>Please make a payment through Paypal</strong>
                                             </h6>
-                                            <p>Paypal email address:<strong> jigmetashi02@gmail.com</strong>
+                                            <p>Paypal email address:<strong> apkinga2000@gmail.com</strong>
                                             </p>
                                         </div>
                                         <form className={styles.formContainer1}>

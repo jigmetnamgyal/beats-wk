@@ -16,7 +16,7 @@ export default function Home() {
                 <div className={styles.mainContentContainer}>
                     <div className={styles.homeHeadingContainer}>
                         <p className={styles.headingOne}>#1 market place to buy beats</p>
-                        <p className={styles.headingTwo}>We have more than 1.2 m happy customers</p>
+                        <p className={styles.headingTwo}>The website is still under maintanence, thank you for visiting us. I will update on the final release of website on my social media accounts</p>
                     </div>
                 </div>
                

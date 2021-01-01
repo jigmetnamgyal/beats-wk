@@ -6,27 +6,22 @@ import Navigation from '../components/NavBar/NavigationBar';
 
 export default function AboutMe() {
     return (
-        <Container fluid={true} className={`${utilStyles.backgroundColor} ${styles.aboutMeContainer}`}>
+        <div fluid={true} className={`${utilStyles.backgroundColor} ${styles.aboutMeContainer}`}>
             <Navigation/>
             <Row className={`justify-content-center ${utilStyles.headers}`}>
                 <Col xs={11} lg={10} className={`${styles.header}`}>
-                    <h3 className={`${utilStyles.title} ${styles.title}`}>About me</h3>
+                    <h3 className={`${styles.title}`}>About me</h3>
                     <hr className={utilStyles.hr}/>
                 </Col>
             </Row>
             <Row>
                 <Col xs={{span: 10, offset: 1}} lg={{span: 6, offset: 1}}
-                     className={`${utilStyles.text} ${styles.text} ${styles.descriptionWK}`}>
+                     className={` ${styles.text} ${styles.descriptionWK}`}>
                     <p>
-                        Hello! I'm Brittany, a software engineer based in Boston, MA.
-                        I enjoy creating things that live on the internet, whether that be websites, applications, or
-                        anything in between. My goal is to always build products that provide pixel-perfect, performant
-                        experiences.
+                    Yo! I am Wangchuk Kinga Beats, a Bhutanese beat-maker based in Bhutan. I am a full time beat-maker and I am more into hip hop and R&B music. Every beat I create is purely based on my creativity and I assure the originality of every beat I own. 
                         <br/>
                         <br/>
-                        Shortly after graduating from Northeastern University, I joined the engineering team at
-                        Upstatement where I work on a wide variety of interesting and meaningful projects on a daily
-                        basis.
+                        I am determined to work hard and fulfill my dreams. I hope ya’all like my beats and looking forward to work with ya’all in near future.
                     </p>
                 </Col>
                 <Col className={`${styles.aboutPic}`} xs={0} lg={4}>
@@ -55,7 +50,7 @@ export default function AboutMe() {
                 <Col lg={{span: 6}} xs={0} className={`${styles.songInfo}`}>
                     <Row>
                         <Col lg={12}>
-                            <h4 className={`${utilStyles.title}`}>Wangchuk Kinga X GSD</h4>
+                            <h4 className={`${utilStyles.title}`}>Chosen_yugrang_-_(Prod.Wangchuk Kinga Beats)</h4>
                         </Col>
                     </Row>
                     <Row>
@@ -73,7 +68,7 @@ export default function AboutMe() {
                 <Col lg={6} xs={0} className={`${styles.songInfo}`}>
                     <Row>
                         <Col lg={12}>
-                            <h4 className={`${utilStyles.title}`}>Wangchuk Kinga X GSD</h4>
+                            <h4 className={`${utilStyles.title}`}>MENYEN NGA_Skin Head X_-_(Prod.Wangchuk Kinga Beats)</h4>
                         </Col>
                     </Row>
                     <Row>
@@ -94,7 +89,7 @@ export default function AboutMe() {
                 <Col lg={6} xs={0} className={`${styles.songInfo}`}>
                     <Row>
                         <Col lg={12}>
-                            <h4 className={`${utilStyles.title}`}>Wangchuk Kinga X Jigme Nobs</h4>
+                            <h4 className={`${utilStyles.title}`}>Reymoen_Karma wangyle_-_(Prod.Wangchuk Kinga Beats)</h4>
                         </Col>
                     </Row>
                     <Row>
@@ -112,7 +107,28 @@ export default function AboutMe() {
                 <Col lg={6} xs={0} className={`${styles.songInfo}`}>
                     <Row>
                         <Col lg={12}>
-                            <h4 className={`${utilStyles.title}`}>Wangchuk Kinga X Zamin</h4>
+                            <h4 className={`${utilStyles.title}`}>Khandum_Skin Head X_-_(Prod.Wangchuk Kinga Beats)
+Wangchuk </h4>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col lg={10}>
+                            <p className={`${styles.text} ${utilStyles.text}`}>
+                                The true essence of Bhutan is very hard to caputre in words. It is as elusive as the
+                                romanticization of the gullible whites but also as fleeting as life.
+                            </p>
+                        </Col>
+                    </Row>
+                </Col>
+
+                <Col xs={{span: 5}} lg={3} className={`${styles.albumImage}`}>
+                    <img src={"https://upload.wikimedia.org/wikipedia/en/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png"}
+                         className={utilStyles.albumImage}/>
+                </Col>
+                <Col lg={6} xs={0} className={`${styles.songInfo}`}>
+                    <Row>
+                        <Col lg={12}>
+                            <h4 className={`${utilStyles.title}`}>Dema_Alien_-_(Prod.Wangchuk Kinga Beats)</h4>
                         </Col>
                     </Row>
                     <Row>
@@ -126,6 +142,6 @@ export default function AboutMe() {
                 </Col>
             </Row>
             <Footer/>
-        </Container>
+        </div>
     )
 }

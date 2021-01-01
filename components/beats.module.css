@@ -55,7 +55,7 @@
         flex-direction: column;
         width: 400px;
         height: auto;
-        background-color: #233237;
+        background-color: #181818;
         margin-top: 30px;
     }
     .title{
@@ -148,7 +148,10 @@
         margin-right: 10px !important;
     }
     .textContainer{
-        background-color: rgba(160, 146, 123, 0.55);
+        background-color: #000000;
+    }
+    .textContainer > p{
+        color: white;
     }
     .checkoutButton{
         width: 130px;
