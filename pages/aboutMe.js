@@ -150,7 +150,7 @@ export default function AboutMe() {
                         <Col lg={10}>
                             <p className={`${styles.text} ${utilStyles.text}`}>
                                 The true essence of Bhutan is very hard to caputre in words. It is as elusive as
-                                the romanticization of the gullible whites but also as fleeting as life
+                                the romanticization of the gullible whites but also as fleeting as life.
                             </p>
                         </Col>
                     </Row>
