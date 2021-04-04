@@ -60,7 +60,7 @@ const checkout = () => {
     const handleClick = e => {
         e.preventDefault();
         window.open(
-            `mailto:jigmetashi02@gmail.com?subject=MakingOrder&body=Name: ${firstName} ${lastName}`
+            `mailto:apkinga2000@gmail.com?subject=MakingOrder&body=Name: ${firstName} ${lastName}`
         );
     }
     return (
