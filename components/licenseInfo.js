@@ -11,14 +11,14 @@ export default function LicenseInfo(props) {
             <Col xs={11} className={props.lastLicense ? `${styles.lastLicenseInfoContainer}`:`${styles.licenseInfoContainer}`}>
                 <Row>
                     <Col xs={4} className={`${styles.licenseName}`}>
-                        <h4 className={``}>
-                            LEASE
-                        </h4>
+                        <h5 className={`${styles.licenseNameName}`}>
+                            {props.name}
+                        </h5>
                     </Col>
                     <Col xs={8} className={`${styles.licensePriceContainer}`}>
-                        <h4 className={`${styles.licensePrice}`}>
-                            30$ / BTN 2100
-                        </h4>
+                        <h6 className={`${styles.licensePrice}`}>
+                            {props.price} $
+                        </h6>
                     </Col>
                 </Row>
                 <Row className={`no-gutters`}>

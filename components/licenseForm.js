@@ -28,7 +28,7 @@ export default function LicenseForm(props) {
                     </Col>
                 </Row>
                 <hr className={`${styles.formInfoDivider}`}/>
-                <LicenseInfo setShow={props.setShow} setLabel={props.setLabel}/>
+                <LicenseInfo setShow={props.setShow} setLabel={props.setLabel} name="Basic License-International" price={19.99}/>
                 <LicenseInfo setShow={props.setShow} setLabel={props.setLabel}/>
                 <LicenseInfo setShow={props.setShow} lastLicense={true} setLabel={props.setLabel}/>
             </Col>
