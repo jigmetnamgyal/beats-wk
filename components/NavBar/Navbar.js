@@ -21,7 +21,7 @@ const Navbar = ({hamHandler}) => {
                         <Link href="/aboutMe"><a>About Me</a></Link>
                         <Link href="/beats"><a>Beats</a></Link>
                         <Link href="/contactUs"><a>Contact</a></Link>
-                        <Link href="/"><a>Cart Review</a></Link>
+                        <Link href="/licensingInfo"><a>Licensing Info</a></Link>
                     </ul>
                 </nav>
                 <div className={styles.cartHolder}>

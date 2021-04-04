@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className={styles.footerOne}>
                     <div className={styles.titleHolder}>
                         <img className={styles.imgLogo} src='/images/logo.svg' alt="CompanyLogo"/>
-                        <h4>WK Beats</h4>
+                        <h5>Wangchuk Kinga Beats</h5>
                     </div>
 
                     <p>Yo! I am Wangchuk Kinga Beats, a Bhutanese beat-maker based in Bhutan. I am a
@@ -42,13 +42,12 @@ const Footer = () => {
                     <h4>Quick Links</h4>
                     <Link href="/">Home</Link>
                     <Link href="/beats">Beats</Link>
-
+                    <Link href="/licensingInfo">Licensing Info</Link>
                 </div>
                 <div className={styles.footerFour}>
                     <h4>About Us</h4>
                     <Link href="/aboutMe">About Us</Link>
                     <Link href="/contactUs">Contact Us</Link>
-                    <Link href="/licensingInfo">Licensing Info</Link>
                 </div>
                 <div className={styles.footerThree}>
                     <h4>Legal</h4>
@@ -61,7 +60,7 @@ const Footer = () => {
             <div className={styles.footerChildTwoContainer}>
                 <div className={styles.footerTwoContainer}>
                     <p>
-                        &copy;Wk Beats Bhutan 2021-
+                        &copy;Wangchuk Kinga Beats Bhutan 2021-
                         <span>
                             get your beat</span>
                     </p>

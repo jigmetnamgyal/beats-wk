@@ -1,3 +1,21 @@
 .containerInfo{
     display:flex;
 }
+.bossContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1095px) {
+    .containerInfo{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .bossContainer{
+        margin-top: 100px;
+    }
+}

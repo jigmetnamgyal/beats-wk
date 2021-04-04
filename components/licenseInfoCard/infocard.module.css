@@ -1,10 +1,11 @@
 .socialItem{
     position: relative;
     width: 400px;
-    height: 450px;
+    min-width: 300px;
+    height: 650px;
     background-color: whitesmoke !important;
     margin: 20px;
-    margin-top: 250px;
+    margin-top: 120px;
     margin-left: 50px;
     display: flex;
     flex-direction: column;
@@ -98,7 +99,6 @@
     .socialItem{
         width: 60%;
         margin: 10px auto;
-        
     }
 }
 @media screen and (max-width: 415px){
@@ -106,6 +106,9 @@
         width: 60%;
         margin: 10px auto;
         font-size: 11px;
-        height: 750px;
+        height: 600px;
+    }
+    .socialItem__typo{
+        font-size: 20px !important;
     }
 }

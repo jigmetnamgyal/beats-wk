@@ -14,7 +14,7 @@ const InfoCard = ({
     return (
         <Card className={styles.socialItem}>
             <CardContent>
-                <Typography className={styles.socialItem__typo} variant="h4" component="h2">{name}</Typography>
+                <Typography className={styles.socialItem__typo} variant="h4" component="h6">{name}</Typography>
                 <Typography className={styles.socialItem__typo} variant="h5" component="h6">{price} $</Typography>
                 <div className={styles.desc}>
                     <ul>
