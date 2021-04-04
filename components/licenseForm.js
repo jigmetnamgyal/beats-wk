@@ -67,32 +67,45 @@ export default function LicenseForm(props) {
                                     setShow={props.setShow}
                                     setLabel={props.setLabel}
                                     name="Basic License"
-                                    price={19.99}/>
+                                    price={19.99}
+                                    fl={flag}/>
                                 <LicenseInfo setShow={props.setShow} setLabel={props.setLabel}
                                 name="Premium Lease"
-                                price={30}/>
+                                price={30}
+                                fl={flag}/>
                                 <LicenseInfo
                                     setShow={props.setShow}
                                     lastLicense={true}
                                     setLabel={props.setLabel}
                                     name="Trackout Lease"
-                                    price={75}/>
+                                    price={75}
+                                    fl={flag}/>
                                     <LicenseInfo
                                     setShow={props.setShow}
                                     lastLicense={true}
                                     setLabel={props.setLabel}
                                     name="Unlimited Lease"
-                                    price={175}/>
+                                    price={175}
+                                    fl={flag}/>
                                     <LicenseInfo
                                     setShow={props.setShow}
                                     lastLicense={true}
                                     setLabel={props.setLabel}
                                     name="Exclusive License "
-                                    price={499}/>
+                                    price={499}
+                                    fl={flag}/>
                             </div>
 
                         )
-                        : (<div>Hello wrodl</div>)
+                        : (<div>
+                            <LicenseInfo
+                                    setShow={props.setShow}
+                                    lastLicense={true}
+                                    setLabel={props.setLabel}
+                                    name="Basic Lease "
+                                    price={1000}
+                                    fl={flag}/>
+                        </div>)
                 }
 
             </Col>

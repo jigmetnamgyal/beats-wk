@@ -17,7 +17,7 @@ export default function LicenseInfo(props) {
                     </Col>
                     <Col xs={8} className={`${styles.licensePriceContainer}`}>
                         <h6 className={`${styles.licensePrice}`}>
-                            {props.price} $
+                            {props.price} {!props.fl ? ("$"):("Nu")}
                         </h6>
                     </Col>
                 </Row>
