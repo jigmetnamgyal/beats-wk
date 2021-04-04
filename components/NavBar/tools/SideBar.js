@@ -16,7 +16,7 @@ const SideBar = ({close, show}) => {
                 <li><Link href="/aboutMe"><a>About Me</a></Link></li>
                 <li><Link href="/beats"><a>Beats</a></Link></li>
                 <li><Link href="/contactUs"><a>Contact</a></Link></li>
-                <li><Link href="/"><a>Cart Review</a></Link></li>
+                <li><Link href="/licensingInfo"><a>Licensing Info</a></Link></li>
             </ul>
         </div>
     )
