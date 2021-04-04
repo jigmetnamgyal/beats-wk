@@ -56,6 +56,38 @@
     outline: none;
     border: none;
 }
+.btnTypeholder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 30px;
+    margin-bottom: 40px;
+}
+.btnTypeholder > button {
+    color: #000000 !important;
+    background-color: transparent;
+    border-radius: 0 !important;
+    padding: 30px 40px;
+    outline: none;
+    border: none;
+}
+.btnTypeholder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 30px;
+    margin-bottom: 40px;
+}
+.btnTypeholder > button {
+    color: #000000 !important;
+    background-color: transparent;
+    border-radius: 0 !important;
+    padding: 30px 40px;
+    outline: none;
+    border: none;
+}
 
 .domesticBtn{
     margin-right: 10px !important;

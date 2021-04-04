@@ -45,6 +45,7 @@
 .selectLicenseIcon{
     font-size: 25px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .licenseNameName{
     margin-top: 10px;
