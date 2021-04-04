@@ -95,7 +95,6 @@ export default function LicenseForm(props) {
                                     price={499}
                                     fl={flag}/>
                             </div>
-
                         )
                         : (<div>
                             <LicenseInfo
@@ -107,7 +106,6 @@ export default function LicenseForm(props) {
                                     fl={flag}/>
                         </div>)
                 }
-
             </Col>
         </Row>
     )

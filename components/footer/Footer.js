@@ -48,7 +48,7 @@ const Footer = () => {
                     <h4>About Us</h4>
                     <Link href="/aboutMe">About Us</Link>
                     <Link href="/contactUs">Contact Us</Link>
-
+                    <Link href="/licensingInfo">Licensing Info</Link>
                 </div>
                 <div className={styles.footerThree}>
                     <h4>Legal</h4>
