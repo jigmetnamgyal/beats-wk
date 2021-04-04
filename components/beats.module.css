@@ -60,6 +60,7 @@
     }
     .title{
         margin-top: 10px !important;
+        color: white !important;
     }
     .cartSummaryItemPrice{
         display: flex;
@@ -114,11 +115,10 @@
     .metaContainer{
         padding: 0!important;
     }
-    .beatsDescriptionContainer{
 
-    }
     .beatsDescription{
         display: none;
+        color: whitesmoke;
     }
     .djImg {
         width: 350px;
@@ -146,6 +146,7 @@
         margin-bottom: 50px !important;
         margin-left: 10px !important;
         margin-right: 10px !important;
+        color: white !important;
     }
     .textContainer{
         background-color: #000000;

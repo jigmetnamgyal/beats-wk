@@ -6,9 +6,8 @@ import NavigationBar from "../components/NavBar/NavigationBar";
 import styles from "../components/aboutMe.module.css";
 import BeatsPlayer from "../components/beatPlayer";
 import Footer from "../components/footer/Footer";
-import LicenseForm from "../components/licenseForm";
 import Link from "next/link";
-import {useState} from "react";
+
 
 export default function Beats() {
     return (
@@ -23,12 +22,10 @@ export default function Beats() {
             <Row className={`justify-content-center no-gutters ${beatsStyles.beatsDescription}`}>
                 <Col xs={8} lg={4} className={`${utilStyles.text} ${styles.text} ${beatsStyles.text}`}>
                     <p>
-                        My beats are solely produced by me and i make them for fun but would be down for a collaboration
-                        as well.
+                        My beats are solely produced by me but would be down for a collaboration as well.
                     </p>
                     <p>
-                        The beats are licensed under apache 2.0 and please dont fork.
-                        All beats are pretty good and if you really want to use but no money then email me.
+                    The beats are licensed under apache 2.0 and please dont fork.
                     </p>
                 </Col>
                 {/*<Col xs={3} lg={6} className={`${beatsStyles.phoneImg}`}>*/}
@@ -41,13 +38,10 @@ export default function Beats() {
                         <Col lg={{span: 5}}
                              className={`${utilStyles.text} ${styles.text} ${beatsStyles.text} ${beatsStyles.textContainer}`}>
                             <p>
-                                My beats are solely produced by me and i make them for fun but would be down for a
-                                collaboration
-                                as well.
+                            My beats are solely produced by me but would be down for a collaboration as well.
                             </p>
                             <p>
-                                The beats are licensed under apache 2.0 and please dont fork.
-                                All beats are pretty good and if you really want to use but no money then email me.
+                            The beats are licensed under apache 2.0 and please dont fork.
                             </p>
                         </Col>
                     </Row>
